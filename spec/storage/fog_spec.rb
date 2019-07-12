@@ -22,7 +22,7 @@ describe CarrierWave::Storage::Fog do
       CarrierWave::Uploader::Base.fog_credentials = nil
     end
 
-    it "caches Fog::Storage instance" do
+    it "caches Fog::AWS::Storage instance" do
       CarrierWave::Uploader::Base.fog_credentials = {
         provider: 'AWS', aws_access_key_id: 'foo', aws_secret_access_key: 'bar'
       }
