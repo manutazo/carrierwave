@@ -8,10 +8,10 @@ Gem::Specification.new do |s|
   s.name = "carrierwave"
   s.version = CarrierWave::VERSION
 
-  s.authors = ["Jonas Nicklas"]
+  s.authors = ["Manuel Gómez"]
   s.description = "Upload files in your Ruby applications, map them to a range of ORMs, store them on different backends."
   s.summary = "Ruby file upload library"
-  s.email = ["jonas.nicklas@gmail.com"]
+  s.email = ["manuelgomezm97@gmail.com"]
   s.extra_rdoc_files = ["README.md"]
   s.files = Dir["{bin,lib}/**/*", "README.md"]
   s.homepage = %q{https://github.com/carrierwaveuploader/carrierwave}
